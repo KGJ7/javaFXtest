@@ -20,6 +20,14 @@ public class Controller {
     private ListView<String> fruitList;
 
     @FXML
+    private Button clearButton;
+
+    @FXML
+    private void clearList(){
+        fruitList.getItems().clear();
+    }
+
+    @FXML
     private void addItem(){
         if(userInput != null){
             fruitList.getItems().add(userInput.getText());

@@ -1,0 +1,15 @@
+#closeButton{
+    -fx-background-color: darkred;
+    -fx-text-fill: white;
+}
+#closeButton:hover{
+    -fx-background-color: red;
+}
+.button{
+    -fx-background-color:white;
+    -fx-text-fill: blue;
+    -fx-font-family: Elephant;
+}
+.button:hover{
+    -fx-background-color:darkgray;
+}
